@@ -55,16 +55,37 @@ header {
 .dual-text {
     margin-top: 18px;
     font-size: 15px;
-    line-height: 1.5;
+    line-height: 1.6;
 }
 
 .tamil-text {
-    color: #caa9ff;
+    color: #d5b2ff;
     text-shadow: 0 0 15px #7020ff70;
     display: block;
-    margin-top: 10px;
+    margin-top: 14px;
 }
 
+/* AUTO TYPING */
+.type-wrap {
+    margin-top: 10px;
+    font-size: 22px;
+    color: #c9a0ff;
+    text-shadow: 0 0 15px #7020ff80;
+}
+
+.cursor {
+    font-weight: 600;
+    color: #bb66ff;
+    animation: blink .6s infinite;
+}
+
+@keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 0; }
+    100% { opacity: 1; }
+}
+
+/* BUTTON */
 .hero-buttons {
     display: flex;
     justify-content: center;
@@ -72,7 +93,6 @@ header {
     gap: 15px;
 }
 
-/* BUTTON */
 .btn-neon {
     padding: 10px 25px;
     border: 1px solid #9b4cff;
@@ -84,7 +104,7 @@ header {
 }
 .btn-neon:hover {
     background: #a946ff;
-    box-shadow: 0 0 35px #c187ff;
+    box-shadow: 0 0 40px #c187ff;
 }
 
 /* SECTIONS */
@@ -97,8 +117,8 @@ section {
 .skills .skill-box {
     display: flex;
     flex-wrap: wrap;
-    gap: 15px;
     justify-content: center;
+    gap: 15px;
 }
 .skills span {
     background: rgba(120, 0, 255, 0.17);
@@ -144,10 +164,10 @@ footer {
     background: #020205;
     padding: 30px;
     text-align: center;
-    color: #bfb8e0;
+    color: #beb6db;
 }
 
-/* MOBILE RESPONSIVE */
+/* RESPONSIVE */
 @media(max-width:730px){
     .nav {
         flex-direction: column;
