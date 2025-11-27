@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+
+body {
+    margin: 0;
+    background: #0a0a14;
+    font-family: "Poppins", sans-serif;
+    color: #eee;
+}
+
+header {
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 40px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background: rgba(10, 10, 25, 0.5);
+    backdrop-filter: blur(10px);
+}
+
+.logo {
+    font-size: 24px;
+    color: #fff;
+}
+.logo span {
+    color: #a946ff;
+}
+
+.menu {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+.menu a {
+    color: #c9a0ff;
+    text-decoration: none;
+    transition: 0.3s;
+}
+.menu a:hover {
+    color: #fff;
+}
+
+.hero h2, .hero h3 {
+    margin: 10px 0;
+}
+.neon-text {
+    color: #b366ff;
+    text-shadow: 0 0 20px #8d3fff, 0 0 40px #6a0dff;
+    font-size: 48px;
+}
+
+.btn-neon {
+    padding: 10px 25px;
+    color: #fff;
+    border: 1px solid #a946ff;
+    text-decoration: none;
+    border-radius: 6px;
+    box-shadow: 0 0 15px #a946ff;
+    transition: 0.4s;
+}
+.btn-neon:hover {
+    background: #a946ff;
+    box-shadow: 0 0 25px #c187ff;
+}
+
+section {
+    text-align: center;
+    padding: 80px 25px;
+}
+
+.skills .skill-box {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+}
+
+.skills .skill-box span {
+    background: rgba(150, 0, 255, 0.2);
+    border: 1px solid #9e4bff;
+    padding: 10px 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px #8d3fff;
+}
+
+.projects {
+    max-width: 1100px;
+    margin: auto;
+}
+
+.project-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    justify-content: center;
+}
+
+.project {
+    background: rgba(20,10,40,0.4);
+    padding: 25px;
+    border: 1px solid #8d3fff;
+    border-radius: 10px;
+    width: 300px;
+    box-shadow: 0 0 20px #6a0dff60;
+    transition: .3s;
+}
+.project:hover {
+    box-shadow: 0 0 35px #a946ff;
+}
+
+footer {
+    text-align: center;
+    padding: 30px;
+    background: #030306;
+}
